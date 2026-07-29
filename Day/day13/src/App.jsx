@@ -6,6 +6,10 @@ import InfoBoxDemo from "./components/propstwo";
 
 import './App.css'
 
+import Counter from "./components/State";
+import ToggleText from "./components/StateTwo";
+import NameInput from "./components/StateThree";
+
 const name = "Amay";
 const isLoggedIn = false;
 
@@ -38,6 +42,12 @@ function App() {
       <ProfileList />
 
       <InfoBoxDemo />
+
+      <Counter />
+
+      <ToggleText />
+
+      <NameInput />
     </>
     
   )
