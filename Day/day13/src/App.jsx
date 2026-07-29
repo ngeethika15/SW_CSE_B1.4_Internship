@@ -1,5 +1,5 @@
-import Button from './components/FunctionalComponent'
-import { LeftArrow,RightArrow } from "./components/FunctionalComponentTwo";
+import Button from './components/functional component'
+import { LeftArrow,RightArrow } from "./components/functional componet two";
 
 import ProfileList from "./components/Props";
 import InfoBoxDemo from "./components/propstwo";
