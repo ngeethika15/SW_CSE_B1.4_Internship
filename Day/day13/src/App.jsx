@@ -1,7 +1,11 @@
-import Button from './components/functional component'
-import { LeftArrow,RightArrow } from "./components/functional componet two";
+import Button from './components/FunctionalComponent'
+import { LeftArrow,RightArrow } from "./components/FunctionalComponentTwo";
 
 import ProfileList from "./components/Props";
+import InfoBoxDemo from "./components/propstwo";
+
+import './App.css'
+
 const name = "Amay";
 const isLoggedIn = false;
 
@@ -32,6 +36,8 @@ function App() {
       <RightArrow />
 
       <ProfileList />
+
+      <InfoBoxDemo />
     </>
     
   )
